@@ -2,6 +2,7 @@
 
 https://drive.google.com/file/d/1fIU_v-n1hZFTEBNLyYYvDYHhTLBZ3Juv/view?usp=sharing
 
+둘러보기: https://kdt-react-node-1-team02.elicecoding.com/
 
 - 게시판 둘러보기 페이지
 둘러보기 페이지에서 게시판 카테고리와 해당 카테고리의 게시물을 최신 순으로 10개씩 볼 수 있도록 구현했습니다. 게시글을 클릭하면 해당 게시판의 게시물로 이동하도록 했습니다.
