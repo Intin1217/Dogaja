@@ -3,7 +3,7 @@
 https://drive.google.com/file/d/1fIU_v-n1hZFTEBNLyYYvDYHhTLBZ3Juv/view?usp=sharing
 
 둘러보기: https://kdt-react-node-1-team02.elicecoding.com/
-
+시연영상: https://www.youtube.com/watch?v=HM2lbkQlCRA
 - 관리자 계정
 
 ID: [testAdmin@test.com](mailto:testAdmin@test.com)
@@ -124,6 +124,3 @@ PW: 11111111
 
 <hr />
 <hr />
-
-## 접속링크
-https://kdt-react-node-1-team02.elicecoding.com/
