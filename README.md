@@ -1,30 +1,9 @@
-![스크린샷 2025-01-16 161342](https://github.com/user-attachments/assets/b97f1d95-18d4-4cd0-8a7a-b7537c7f91bb)
-
-
 제가 작성한 코드만 정리해서 구글 드라이브에 올려놨습니다! 
 
 https://drive.google.com/file/d/1fIU_v-n1hZFTEBNLyYYvDYHhTLBZ3Juv/view?usp=sharing
 
 
 시연영상: https://www.youtube.com/watch?v=HM2lbkQlCRA
-
-
-둘러보기: https://kdt-react-node-1-team02.elicecoding.com/
-
-- 관리자 계정
-
-ID: [testAdmin@test.com](mailto:testAdmin@test.com)
-
-PW: 11111111
-
-- 일반 계정
-
-ID: test@naver.com
-
-ID: [test2@naver.com](mailto:test~10@naver.com) (2부터 10까지 있습니다)
-
-PW: 11111111
-
 
 
 - 게시판 둘러보기 페이지
