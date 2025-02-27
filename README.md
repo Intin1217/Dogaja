@@ -3,19 +3,49 @@
 
 - 게시판 둘러보기 페이지
 둘러보기 페이지에서 게시판 카테고리와 해당 카테고리의 게시물을 최신 순으로 10개씩 볼 수 있도록 구현했습니다. 게시글을 클릭하면 해당 게시판의 게시물로 이동하도록 했습니다.
+
+
+![image](https://github.com/user-attachments/assets/4c0c8532-2486-4020-b4b2-f69711c2eacf)
+
 - 게시판
 해당 카테고리에 맞는 API 요청을 통해 해당 게시판의 글 목록을 조회할 수 있도록 했습니다. 회원의 경우 글 작성 버튼이 활성화되어 클릭 시 해당 카테고리의 글 작성 페이지로 이동되도록 구현했습니다.
+
+
+![image](https://github.com/user-attachments/assets/784bb6fc-dac0-4833-928a-d26b74972202)
+![image](https://github.com/user-attachments/assets/c2ee6e9c-4f3e-4da3-a1bf-bc50777ecdcf)
+
 - 상세 보기
 게시물의 상세 정보를 확인할 수 있도록 했고, 회원의 경우 여기서도 글 작성이 가능하며 글 작성자, 댓글 작성자 중 원하는 사람의 닉네임을 클릭해 친구 요청을 보낼 수 있도록 구현했습니다. 글 작성자와 관리자는 게시물 수정, 삭제가 가능하도록 했습니다. 또한 본문의 경우 `DOMPurify` 라이브러리를 이용해 XSS 공격을 방지했습니다. 게시물을 신고할 수 있도록 했고, 병렬 라우팅을 이용해 상세보기 페이지에서 다른 글로 이동이 가능하도록 구현했습니다.
+
+
+![image](https://github.com/user-attachments/assets/57520a82-6756-4aba-aae9-1bce8dbcc0c9)
+![image](https://github.com/user-attachments/assets/54cdd18c-f207-41c7-8902-115837434d62)
+
+
 - 글 작성, 수정
 제목과 본문을 작성해야 작성 및 수정 요청을 보낼 수 있도록 구현했습니다. 텍스트 에디터는 ReactQuill 라이브러리를 사용했습니다. 이미지를 선택할 경우 파이어베이스에 이미지를 올리고 URL을 가져와서 src 속성에 적용되도록 했고, 이미지의 사이즈를 조절할 수 있도록 구현했습니다.
+
+
+![image](https://github.com/user-attachments/assets/0984e144-b2a7-40fd-8c4b-5912ca8e1cbe)
+
 - 댓글 작성
 회원의 경우 댓글을 작성, 수정, 삭제가 가능하도록 했고 작성자와 관리자만이 수정 삭제가 가능하도록 구현했습니다. 비회원의 경우 보이지 않도록 했습니다.
+
+
+![image](https://github.com/user-attachments/assets/0759aabc-72b6-41ee-9b30-ca6181ef9534)
+
 - 관리자 신고 접수 페이지
 관리자만 접근이 가능하도록 했고 관리자 권한이 없는 유저가 접근하면 404 페이지로 이동시키도록 구현했습니다. 관리자는 게시물들의 신고사유와 제목 등의 정보를 확인할 수 있고 해당 게시글을 삭제하거나 신고 리스트에서 삭제시킬 수 있도록 했습니다.
+
+
+![image](https://github.com/user-attachments/assets/6f0ee1e0-4180-4eba-ac95-47b3a4e754c3)
+
 - 관리자/유저 채팅
 관리자는 유저 채팅방 목록을 볼 수 있고 채팅방을 선택하면 해당 유저와 웹소켓을 이용해 통신을 시작해 실시간으로 채팅을 주고 받을 수 있도록 구현했습니다. 유저는 회원가입한 유저만 채팅을 사용할 수 있도록 했고 화면의 오른쪽 하단에서 관리자와 채팅 아이콘을 클릭하면 채팅을 시작할 수 있도록 구현했습니다.
 
+![image](https://github.com/user-attachments/assets/efe3d9a9-ad10-4d96-9491-2a696a8bef85)
+![image](https://github.com/user-attachments/assets/a16a8671-380e-4a6e-9721-e3342bb54f25)
+![image](https://github.com/user-attachments/assets/5072bf81-60c4-4dc4-9835-39bd8954c45e)
 
 ## 1. 팀 소개
 **팀명** : 2팀 두가자
