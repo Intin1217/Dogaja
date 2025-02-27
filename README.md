@@ -1,8 +1,3 @@
-제가 작성한 코드만 정리해서 구글 드라이브에 올려놨습니다! 
-
-https://drive.google.com/file/d/1fIU_v-n1hZFTEBNLyYYvDYHhTLBZ3Juv/view?usp=sharing
-
-
 시연영상: https://www.youtube.com/watch?v=HM2lbkQlCRA
 
 
