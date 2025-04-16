@@ -1,5 +1,7 @@
 시연영상: https://www.youtube.com/watch?v=HM2lbkQlCRA
 
+#기여 부분
+
 - 텍스트 에디터를 사용해 사용자에게 XSS 공격이 일어날 수 있는 문제가 있어 DOMPurify로 XSS 공격을 방지하였습니다.
 - 텍스트 에디터 사용 시, 이미지의 base64 URL로 인해 데이터가 비대해지는 문제를 Firebase Storage를 활용해
 최적화했습니다. 이미지 선택 시 Firebase에 업로드하여 URL을 받아 적용하는 방식으로 개선했습니다.
